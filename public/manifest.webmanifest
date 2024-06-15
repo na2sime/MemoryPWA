@@ -1,0 +1,9 @@
+{
+  "name": "MemoryPWA",
+  "description": "A memory standalone app based on repetition",
+  "short_name": "MPWA",
+  "start_url": "/",
+  "lang": "fr-FR",
+  "theme_color": "#2e2c2c",
+  "display": "standalone"
+}
