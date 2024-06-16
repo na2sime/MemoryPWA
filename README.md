@@ -1,8 +1,15 @@
-# React + Vite
+# MemoryPWA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Install?
+- npm install
+- npm start or vite
 
-Currently, two official plugins are available:
+#### What doesn't work?
+- image
+- audio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Technologies:
+- Typescript
+- React
+- Mantine React
+- Data storage in the browser using dexie.js (IndexedDB)

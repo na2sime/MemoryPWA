@@ -1,0 +1,240 @@
+{
+  "card": {
+    "delete-modal": {
+      "description": "Vous êtes sur le point de supprimer cette carte. Cela ne peut pas être annulé. Souhaitez-vous continuer ?",
+      "title": "Supprimer la Carte"
+    },
+    "menu": {
+      "debug": "Déboguer",
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "move": "Déplacer",
+      "options": "Options",
+      "statistics": "Statistiques"
+    }
+  },
+  "deck": {
+    "add-cards": "Ajouter des Cartes",
+    "add-cards-tooltip": "Ajouter des Cartes à ce Jeu",
+    "error-failed-to-load": "Échec du chargement de cette carte",
+    "learning-cards-label": "Apprentissage",
+    "learning-cards-label_one": "1 Apprentissage",
+    "learning-cards-label_other": "{{ count }} Apprentissage",
+    "menu": {
+      "debug": "Déboguer",
+      "delete": "Supprimer",
+      "import-cards": "Importer des Cartes",
+      "label": "Menu",
+      "manage-cards": "Gérer les Cartes",
+      "move": "Déplacer",
+      "options": "Options",
+      "rename": "Renommer"
+    },
+    "new-cards-label": "Nouveau",
+    "new-cards-label_one": "1 Nouveau",
+    "new-cards-label_other": "{{ count }} Nouveau",
+    "new-deck-button": "Nouveau Jeu",
+    "new-deck-modal": {
+      "description": "Description",
+      "description-placeholder": "Optionnel",
+      "name": "Nom",
+      "name-placeholder": "par exemple 'Espagnol', 'Anatomie' ou 'Histoire'",
+      "new-deck": "Créer un Nouveau Jeu",
+      "new-subdeck": "Créer un Nouveau Sous-Jeu dans {{superDeck}}",
+      "submit": "Créer"
+    },
+    "no-decks-found": "Il n'y a pas de jeu ici. Cliquez sur le bouton ci-dessus pour en créer un !",
+    "notebook": {
+      "title": "Carnet"
+    },
+    "rename": {
+      "new-name": "Nouveau Nom",
+      "rename-button": "Renommer",
+      "title": "Renommer \"{{deckName}}\""
+    },
+    "review-cards-label": "Révision",
+    "review-cards-label_one": "1 Révision",
+    "review-cards-label_other": "{{ count }} Révision",
+    "settings": "Paramètres",
+    "subdeck": {
+      "add-subdeck-button": "Ajouter",
+      "load-fail": "Échec du chargement des sous-jeux.",
+      "title": "Sous-Jeux"
+    }
+  },
+  "edit-card": {
+    "edit-note": "Modifier la note"
+  },
+  "global": {
+    "cancel": "Annuler",
+    "feature-status": {
+      "in-development": " (En Développement)",
+      "new": " (Nouveau)",
+      "planned": " (Prévu)"
+    },
+    "no-items-title": "C'est vide ici !"
+  },
+  "hero-deck-section": {
+    "all-cards-done-learn-anyway": "Apprendre quand même",
+    "all-cards-done-subtitle": "Revenez demain ou choisissez d'apprendre quand même.",
+    "all-cards-ddone-title": "Félicitations ! Ce jeu est terminé pour aujourd'hui !",
+    "error": "Échec du chargement des cartes.",
+    "learn": "Apprendre",
+    "no-cards": "Commencez par créer quelques cartes !"
+  },
+  "home": {
+    "create-deck": "Créer un jeu",
+    "no-decks-found": "Vous n'avez pas encore créé de jeux.",
+    "title": "Accueil",
+    "welcome": "Bienvenue sur MemoryPWA!",
+    "welcome-user": "Bon retour, {{name}} !"
+  },
+  "learning": {
+    "finished-accuracy-ratio": "Précision",
+    "finished-button-home": "Aller à l'Accueil",
+    "finished-button-to-deck": "Retour au Jeu",
+    "finished-congrats": "Félicitations !",
+    "finished-congrats-name": "Félicitations, {{name}} !",
+    "finished-duration": "Temps",
+    "finished-info": "Vous avez terminé toutes les cartes de ce jeu pour aujourd'hui.",
+    "finished-repetions-count": "Répétitions"
+  },
+  "manage-cards": {
+    "table": {
+      "no-cards-found": "Aucune carte trouvée"
+    },
+    "title": "Gérer les Cartes"
+  },
+  "new-card": {
+    "add": "Ajouter une carte",
+    "add-to-deck": "Ajout de cartes à",
+    "card-type": "Type de Carte"
+  },
+  "note": {
+    "delete-modal": {
+      "description": "Vous êtes sur le point de supprimer cette note. Cela ne peut pas être annulé.",
+      "title": "Supprimer la Note"
+    },
+    "edit": {
+      "see-history-button": "Voir l'Historique",
+      "see-history-tooltip": "Afficher l'historique des dernières cartes créées",
+      "submit-button": "Sauvegarder la Carte",
+      "submit-button-tooltip": "Sauvegarder la Carte",
+      "title": "Modifier la Note",
+      "type-specific": {
+        "double-sided": {
+          "back": "Dos",
+          "front": "Recto"
+        },
+        "normal": {
+          "back": "Dos",
+          "front": "Recto"
+        }
+      }
+    },
+    "menu": {
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "move": "Déplacer"
+    },
+    "new": {
+      "adding-to-deck": "Ajout à \"{{deckName}}\"",
+      "select-note-type": {
+        "label": "Type de Carte",
+        "tooltip": "Choisissez le type de carte que vous souhaitez créer"
+      },
+      "submit-button": "Ajouter une Carte",
+      "submit-button-tooltip": "Ajouter une Carte",
+      "title": "Nouvelles Cartes"
+    },
+    "type": {
+      "cloze": "Cloze",
+      "image-occlusion": "Occultation d'Image",
+      "normal": "Normal",
+      "undefined": "Indéfini"
+    },
+    "type-double-sided": "Double Face"
+  },
+  "notebook": {
+    "individual-show-answer-toggle-tooltip": "Cliquez pour Afficher la Réponse",
+    "options": {
+      "exclude-subdecks": "Exclure les sous-jeux",
+      "menu": "Menu du Carnet",
+      "show-answer": "Afficher les Réponses"
+    }
+  },
+  "settings": {
+    "about": {
+      "description": "Ce programme a été réalisé par un étudiant Francais. MemoryPWA est toujours en developpement. Vous pouvez rencontrer des bugs.",
+      "title": "À Propos"
+    },
+    "appearance": {
+      "color-scheme": "Schéma de Couleurs",
+      "color-scheme-auto": "Système",
+      "color-scheme-dark": "Sombre",
+      "color-scheme-description": "Choisissez entre un thème clair ou sombre permanent ou utilisez le thème de couleur de votre système.",
+      "color-scheme-light": "Clair",
+      "title": "Apparence"
+    },
+    "database": {
+      "storage-used": "utilisé",
+      "title": "Base de Données"
+    },
+    "developer": {
+      "description": "Ceci est l'onglet développeur. Il contiendra des paramètres supplémentaires pour les développeurs.",
+      "title": "Développeur"
+    },
+    "editing": {
+      "editor-options": "Éditeur",
+      "individual-options": "Options individuelles",
+      "markdown-hint": "Vous pouvez également utiliser des raccourcis clavier et la syntaxe de base de markdown pour formater le texte.",
+      "show-code-option": "Afficher l'option de code",
+      "show-highlight-option": "Afficher l'option de surbrillance",
+      "show-link-option": "Afficher les options pour les liens",
+      "show-list-option": "Afficher les options pour les listes",
+      "show-options-for-subscript-and-superscript": "Afficher les options pour indices et exposants",
+      "show-strikethrough-option": "Afficher l'option de barré",
+      "title": "Édition",
+      "use-bubble-menu": "Utiliser le menu en ligne",
+      "use-toolbar": "Utiliser la barre d'outils",
+      "use-toolbar-description": "Toujours afficher une barre d'outils avec des options de formatage au-dessus de l'éditeur"
+    },
+    "editing-use-bubble-menu-description": "Afficher uniquement les options de formatage lorsque le texte est sélectionné",
+    "general": {
+      "enable-developer-mode": "Activer le Mode Développeur",
+      "enable-developer-mode-description": "Cela activera des options supplémentaires pour le débogage et la création de plugins et thèmes personnalisés.",
+      "enable-zen-mode": "Mode Zen",
+      "enable-zen-mode-description": "Le Mode Zen active automatiquement le mode plein écran pendant les sessions d'apprentissage.",
+      "language": "Langue",
+      "language-description": "Définir la langue de l'interface utilisateur.",
+      "name": "Nom",
+      "name-description": "Ce nom sera utilisé pour personnaliser l'expérience utilisateur.",
+      "show-shortcut-hints": "Afficher les Raccourcis",
+      "show-shortcut-hints-description": "Les raccourcis clavier possibles apparaîtront dans les menus, etc.",
+      "title": "Général"
+    },
+    "learn": {
+      "maximumInterval": "Intervalle maximum",
+      "maximumIntervalDescription": "L'intervalle maximum en jours entre deux répétitions d'une carte",
+      "newToReviewRatio": "Nouvelles Cartes par Révisions",
+      "newToReviewRatioDescription": "Cela détermine combien de nouvelles cartes seront montrées en moyenne par révision. Une valeur de 0,5 signifie que les révisions et les nouvelles cartes seront présentées en quantités égales.",
+      "requestRetention": "Rétention demandée",
+      "requestRetentionDescription": "Définir le pourcentage de questions que vous souhaitez être capable de vous souvenir à long terme. Remarque : des valeurs élevées entraîneront plus de révisions et des intervalles plus courts. Des pourcentages plus faibles réduiront généralement la quantité d'apprentissage. Si la rétention demandée est trop faible, vous oublierez trop souvent vos cartes, ce qui peut augmenter la demande d'apprentissage. Les valeurs recommandées se situent entre 0,70 et 0,95.",
+      "title": "Apprentissage"
+    },
+    "title": "Paramètres"
+  },
+  "sidebar": {
+    "decks-add": "Ajouter un jeu",
+    "decks-title": "Jeux"
+  },
+  "spotlight": {
+    "no-results": "Aucun résultat"
+  },
+  "statistics": {
+    "title": "Statistiques"
+  },
+  "today": {
+    "title": "Aujourd'hui"
+  }
+}

@@ -1,0 +1,6 @@
+.main {
+  min-height: 0;
+  height: 100%;
+  align-items: flex-start;
+  padding: var(--mantine-spacing-md);
+}

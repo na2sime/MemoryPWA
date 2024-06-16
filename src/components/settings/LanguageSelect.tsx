@@ -1,0 +1,35 @@
+import { Select } from "@mantine/core";
+import React from "react";
+import { useTranslation } from "react-i18next";
+import {
+  SupportedLanguages,
+  setSetting,
+  useSetting,
+} from "../../logic/Settings";
+
+export default function LanguageSelect() {
+  const [language] = useSetting("language");
+  const [t, i18n] = useTranslation();
+
+  return (
+    <Select
+      value={language}
+      defaultValue={language}
+      label={t("settings.general.language")}
+      description={t("settings.general.language-description")}
+      onChange={(value) => {
+        if (value !== null) {
+          setSetting("language", value as SupportedLanguages);
+          i18n.changeLanguage(value);
+          window.location.reload();
+        }
+
+        return value;
+      }}
+      data={[
+        { value: SupportedLanguages.French, label: "Francais (Incomplet)" },
+        { value: SupportedLanguages.English, label: "English" }
+      ]}
+    />
+  );
+}
